@@ -1,0 +1,91 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #3498db;
+}
+
+.left-section {
+    flex: 1;
+    position: relative;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el video y mensaje */
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-message {
+    text-align: center;
+}
+
+.video-message h1 {
+    font-size: 36px;
+}
+
+.video-message p {
+    font-size: 18px;
+}
+
+.fa-share {
+    transform: rotate(-90deg);
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff; /* Flecha blanca */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db; /* Enlace azul */
+    text-decoration: none;
+}
+
+button {
+    background-color: #3498db; /* Fondo azul fuerte */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Color azul fuerte al pasar el mouse */
+}
