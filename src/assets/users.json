@@ -1,7 +1,6 @@
 {
     "id": "1",
-    "name": "Luis David",
-    "lastName": "Jimenez",
-    "email": "luis@gmail.com",
+    "token": "Luis David",
+    "role": "Jimenez",
     "message": "Correct Autentification"
 }
