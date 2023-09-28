@@ -8,15 +8,18 @@
 }
 
 .left-section {
-    flex: 1;
-    position: relative;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
 }
 
 .right-section {
-    flex: 1;
+    width: 40%;
+    height: 90%;
     background-color: #fff;
     border-radius: 10px;
     padding: 30px;
+    margin: 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -46,6 +49,10 @@ video {
 }
 
 /* Estilos para el formulario de inicio de sesión */
+.right-section img{
+    width: 100%;
+    margin-bottom: 50px;
+}
 .form-group {
     margin-bottom: 20px;
 }
@@ -71,12 +78,12 @@ input[type="password"] {
 }
 
 a {
-    color: #3498db; /* Enlace azul */
+    color: #3498db;
     text-decoration: none;
 }
 
 button {
-    background-color: #3498db; /* Fondo azul fuerte */
+    background-color: #3498db; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -87,5 +94,5 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9; /* Color azul fuerte al pasar el mouse */
+    background-color: #2980b9; 
 }

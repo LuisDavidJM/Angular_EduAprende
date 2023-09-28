@@ -1,5 +1,8 @@
-<div>
+<header class="header">
+    <img src="../../../../assets/edu_aprende.png" alt="EduAprende">
+    <span>
+        <a (click)="onLogout()" class="logout">Cerrar Sesión</a>
+        <p class="user-role">{{userRole}}</p>
+    </span>
     
-    <a (click)="onLogout()">Cerrar Sesión</a>
-    <p class="user-role">{{userRole}}</p>
-</div>
+</header>
