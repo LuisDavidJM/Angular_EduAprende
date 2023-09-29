@@ -71,6 +71,10 @@ input[type="password"] {
     border-radius: 5px;
 }
 
+.required-data {
+    color: red;
+}
+
 .forgot-password {
     text-align: right;
     margin-top: -10px;
