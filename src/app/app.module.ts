@@ -9,6 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { ButtonComponent } from './components/shared/button/button.component';
+import { SubirContenidoComponent } from './components/pages/subir-contenido/subir-contenido.component';
+import { AyudaComponent } from './components/pages/ayuda/ayuda.component';
+import { GestionDeUsuariosComponent } from './components/pages/gestion-de-usuarios/gestion-de-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { HomeComponent } from './components/pages/home/home.component';
     LoginComponent,
     HeaderComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    ButtonComponent,
+    SubirContenidoComponent,
+    AyudaComponent,
+    GestionDeUsuariosComponent
   ],
   imports: [
     BrowserModule,

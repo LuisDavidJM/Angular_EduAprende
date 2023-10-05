@@ -1,5 +1,27 @@
 <app-header></app-header>
 <main class="main">
-    <p class="main-title">Pagina principal</p>
+    <app-button></app-button>
+    <div class="main-content" (click)="returnTitles()">
+        <div *ngIf="returnRole() === 'estudiante'" class="main-student">
+            <div *ngFor="let title of returnTitles()" (click)="onSelectedTitle(title)" class="titles">
+                <h3>{{title.title}}</h3>
+            </div>
+            <div *ngIf="selectedTitle" class="content">
+                <h3>{{selectedTitle.title}}</h3>
+                <h4>{{selectedTitle.subtitle}}</h4>
+                <p>{{selectedTitle.text}}</p>
+                <video src="{{selectedTitle.video}}" controls></video>
+                <a href="{{selectedTitle.pdf}}">PDF</a>
+            </div>
+        </div>
+        <div *ngIf="returnRole() === 'docente'" class="main-teacher">
+            <h2>Mis cursos</h2>
+            <div>
+                <p>En curso</p>
+                <h3>Gestión de Usuarios</h3>
+                <a routerLink="/gestion-de-usuarios">Ingresar</a>
+            </div>
+        </div>
+    </div>
 </main>
 
