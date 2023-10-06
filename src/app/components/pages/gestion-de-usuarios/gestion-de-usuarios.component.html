@@ -1,2 +1,17 @@
 <app-header></app-header>
 <app-button></app-button>
+<div *ngFor="let user of users">
+    <p>{{user.id}}</p>
+    <p>{{user.username}}</p>
+    <p>{{user.role}}</p>
+</div>
+<div>
+    <input type="text" [(ngModel)]="id">
+    <button (click)="onDeleteUser(id)">Press</button>
+</div>
+<div>
+    <input type="text" [(ngModel)]="data.username">
+    <input type="text" [(ngModel)]="data.password">
+    <input type="text" [(ngModel)]="data.role">
+    <button (click)="onCreateUser(data)">Press</button>
+</div>
