@@ -10,3 +10,144 @@
     background-color: #E1E1E1;
 }
 
+/* Estilos para el componente principal de estudiantes */
+.main-student {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo para la sección de estudiantes */
+}
+
+/* Estilos para los títulos */
+.titles {
+    padding: 10px;
+    background-color: #e0e0e0; /* Color de fondo para los títulos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Estilos para el contenido seleccionado */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo para el contenido */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 20px; /* Espacio entre los títulos y el contenido */
+    text-align: center;
+}
+
+/* Estilos para el video y el enlace PDF */
+video {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+h3:hover {
+    background-color: #d0d0d0; /* Cambio de color al pasar el ratón por encima */
+}
+
+.subtitle {
+    text-align: center;
+    padding: 20px;
+}
+
+.text {
+    text-align: left;
+    font-weight: 100;
+}
+
+/* Estilos para el enlace de ingreso */
+.pdf {
+    text-decoration: none;
+    background-color: #007bff; /* Color de fondo para el enlace de ingreso */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.pdf:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón por encima */
+}
+
+
+/* Estilos para el componente principal de docentes */
+.main-teacher {
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo para la sección de docentes */
+}
+
+/* Estilos para el título "Mis cursos" */
+.my-courses {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor de información del curso */
+.box {
+    background-color: #fff; /* Color de fondo para el contenedor del curso */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative; /* Añade posición relativa para que el texto "En curso" se ajuste al contenedor */
+    width: 400px;
+    text-align: center;
+}
+
+/* Estilos para el texto "En curso" en la esquina superior izquierda */
+.in-course {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute; /* Añade posición absoluta para colocarlo en la esquina */
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* Estilos para el título del curso */
+.title-text {
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-top: 80px;
+}
+
+/* Estilos para el enlace de ingreso al curso */
+.acces {
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.acces:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón por encima */
+    color: white;
+}
+

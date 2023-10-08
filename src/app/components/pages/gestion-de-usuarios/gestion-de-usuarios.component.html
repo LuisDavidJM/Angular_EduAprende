@@ -1,17 +1,39 @@
 <app-header></app-header>
 <app-button></app-button>
-<div *ngFor="let user of users">
-    <p>{{user.id}}</p>
-    <p>{{user.username}}</p>
-    <p>{{user.role}}</p>
-</div>
-<div>
-    <input type="text" [(ngModel)]="id">
-    <button (click)="onDeleteUser(id)">Press</button>
-</div>
-<div>
-    <input type="text" [(ngModel)]="data.username">
-    <input type="text" [(ngModel)]="data.password">
-    <input type="text" [(ngModel)]="data.role">
-    <button (click)="onCreateUser(data)">Press</button>
+<div class="main-content">
+    <h1>Gestión de usuarios</h1>
+    <div class="box">
+        <div class="buttons">
+            <a (click)="addUser()" class="add button-user">Agregar</a>
+            <a (click)="deleteUser()" class="delete button-user">Eliminar</a>
+        </div>
+        <div class="table">
+            <div class="row row-title">
+            <p class="id">ID</p>
+            <p class="name">Nombre</p>
+            <p class="user">Correo</p>
+            <p class="role">Rol</p>
+        </div>
+            <div *ngFor="let user of users" class="row">
+                <p class="id">{{user.id}}</p>
+                <p class="name">{{user.username.slice(0, -10) | titlecase}}</p>
+                <p class="user">{{user.username}}</p>
+                <p class="role">{{user.role | titlecase}}</p>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="delete" class="button-action">
+        <label for="id">Coloca el ID que desea eliminar</label>
+        <input type="text" [(ngModel)]="id" name="id" id="id">
+        <button (click)="onDeleteUser(id)">Eliminar</button>
+    </div>
+    <div *ngIf="add" class="button-action">
+        <label for="username">Nombre de usuario</label>
+        <input type="text" [(ngModel)]="data.username" name="username" id="username">
+        <label for="password">Contraseña</label>
+        <input type="text" [(ngModel)]="data.password" name="password" id="password">
+        <label for="role">Rol</label>
+        <input type="text" [(ngModel)]="data.role" name="role" id="role">
+        <button (click)="onCreateUser(data)">Agregar</button>
+    </div>
 </div>

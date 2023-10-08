@@ -1,14 +1,18 @@
 <app-header></app-header>
 <app-button></app-button>
-<div class="main-student">
-    <div *ngFor="let help of returnHelp()" (click)="onSelectedHelp(help)" class="titles">
-        <h3>{{help.title}}</h3>
-    </div>
-    <div *ngIf="selectedHelp" class="content">
-        <h3>{{selectedHelp.title}}</h3>
-        <h4>{{selectedHelp.subtitle}}</h4>
-        <p>{{selectedHelp.text}}</p>
-        <video src="{{selectedHelp.video}}" controls></video>
-        <a href="{{selectedHelp.pdf}}">PDF</a>
+<div class="main-content">
+    <div class="main-student">
+        <div class="titles">
+            <div *ngFor="let help of returnHelp()" (click)="onSelectedHelp(help)">
+                <h3>{{help.title}}</h3>
+            </div>
+        </div>
+        <div *ngIf="selectedHelp" class="content">
+            <h3>{{selectedHelp.title}}</h3>
+            <h4 class="subtitle">{{selectedHelp.subtitle}}</h4>
+            <img src="{{selectedHelp.pdf}}" alt="help">
+            <p class="text">{{selectedHelp.text}}</p>
+            <video src="{{selectedHelp.video}}" controls></video>
+        </div>
     </div>
 </div>

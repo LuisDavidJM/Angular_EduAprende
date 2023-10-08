@@ -25,14 +25,14 @@ import { GestionDeUsuariosComponent } from './components/pages/gestion-de-usuari
     ButtonComponent,
     SubirContenidoComponent,
     AyudaComponent,
-    GestionDeUsuariosComponent
+    GestionDeUsuariosComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

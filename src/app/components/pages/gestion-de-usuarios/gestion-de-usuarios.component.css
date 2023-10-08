@@ -1,0 +1,125 @@
+.main-content {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #E1E1E1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones de acción */
+.button-action {
+    margin: 20px;
+    width: 400px;
+}
+
+.button-action label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.button-action input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-action button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-action button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de botones de agregar y eliminar */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-user {
+    color: rgb(0, 0, 158);
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-user:hover {
+    color: blue;
+}
+
+/* Estilos para la tabla de usuarios */
+.table {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.row-title {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.row p {
+    text-align: center;
+}
+
+/* Estilos para columnas específicas */
+.id {
+    flex: 0.5;
+    border-right: 1px solid #ccc;
+}
+
+.name {
+    flex: 2;
+    border-right: 1px solid #ccc;
+}
+
+.user {
+    flex: 2;
+    border-right: 1px solid #ccc;
+}
+
+.role {
+    flex: 1;
+}

@@ -3,23 +3,26 @@
     <app-button></app-button>
     <div class="main-content" (click)="returnTitles()">
         <div *ngIf="returnRole() === 'estudiante'" class="main-student">
-            <div *ngFor="let title of returnTitles()" (click)="onSelectedTitle(title)" class="titles">
-                <h3>{{title.title}}</h3>
+            <div class="titles">
+                <div *ngFor="let title of returnTitles()" (click)="onSelectedTitle(title)">
+                    <h3 class="main-title">{{title.title}}</h3>
+                </div>
             </div>
             <div *ngIf="selectedTitle" class="content">
-                <h3>{{selectedTitle.title}}</h3>
-                <h4>{{selectedTitle.subtitle}}</h4>
-                <p>{{selectedTitle.text}}</p>
+                <h3 class="title">{{selectedTitle.title}}</h3>
+                <h4 class="subtitle">{{selectedTitle.subtitle}}</h4>
+                <p class="text">{{selectedTitle.text}}</p>
                 <video src="{{selectedTitle.video}}" controls></video>
-                <a href="{{selectedTitle.pdf}}">PDF</a>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <a class="pdf" href="{{selectedTitle.pdf}}" target="_blank">PDF</a>
             </div>
         </div>
         <div *ngIf="returnRole() === 'docente'" class="main-teacher">
-            <h2>Mis cursos</h2>
-            <div>
-                <p>En curso</p>
-                <h3>Gestión de Usuarios</h3>
-                <a routerLink="/gestion-de-usuarios">Ingresar</a>
+            <h2 class="my-courses">Mis cursos</h2>
+            <div class="box">
+                <p class="in-course">En curso</p>
+                <h4 class="title-text">Gestión de Usuarios</h4>
+                <a class="acces" routerLink="/gestion-de-usuarios">Ingresar</a>
             </div>
         </div>
     </div>

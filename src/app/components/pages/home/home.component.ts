@@ -48,7 +48,10 @@ export class HomeComponent implements OnInit{
   }
 
   onSelectedTitle(title: any) {
-    
+
+    let classTitle = document.getElementById("selected-title");
+    if(classTitle)
+    classTitle.className = "selected";
     this.selectedTitle = title;
   }
 

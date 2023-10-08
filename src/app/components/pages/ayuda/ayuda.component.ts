@@ -22,7 +22,7 @@ export class AyudaComponent implements OnInit{
         this.router.navigateByUrl('/login');
       }
     });
-    this.content.infoContent().subscribe({
+    this.content.helpContent().subscribe({
       next: resp => {
         this.response = resp;
       },
