@@ -1,44 +1,44 @@
 [
         {
-            "title": "Titulo 1",
-            "subtitle": "Subtitulo 1",
-            "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-            "video": "./assets/Sprint_1.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "title": "Introducción a la Programación",
+            "subtitle": "Comienza Tu Viaje en el Mundo de la Codificación",
+            "text": "Este curso te llevará por un emocionante viaje hacia el mundo de la programación. ¿Alguna vez te has preguntado cómo funcionan las aplicaciones y sitios web que usamos a diario? ¿Quisieras tener la capacidad de crear tus propios programas y aplicaciones? En Introducción a la Programación, aprenderás los conceptos fundamentales de la codificación. Desde comprender cómo se estructuran los programas hasta escribir tus primeras líneas de código, este curso te guiará paso a paso. No se requiere experiencia previa en programación, ya que diseñamos el contenido pensando en principiantes. Desarrollarás habilidades esenciales en lógica de programación y te familiarizarás con lenguajes como JavaScript, Java, C++, y Python. Además, explorarás cómo se aplican estos conceptos en el emocionante campo de la programación orientada a objetos. Al final de este curso, estarás listo para avanzar hacia desafíos más avanzados y crear tus propios proyectos informáticos. ¡Únete a nosotros en este viaje educativo y desbloquea el potencial de la programación.",
+            "video": "https://www.youtube.com/embed/MEuZICEDLJo?si=VGILC3FW7Awtnpa5",
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         },
         {
-            "title": "Titulo 2",
-            "subtitle": "Subtitulo 2",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Programación en JavaScript",
+            "subtitle": "Dominando la Programación Web con JavaScript",
+            "text": "JavaScript es un lenguaje de programación esencial para el desarrollo web. Este curso te sumergirá en los aspectos dinámicos de la creación de sitios web, donde aprenderás a dar vida a tus páginas con interactividad. A medida que avanzas, dominarás la manipulación del Document Object Model (DOM), creando aplicaciones web dinámicas y conectándote a servicios web. Comenzarás desde lo básico, comprendiendo las variables, los bucles, las estructuras de control y las funciones en JavaScript. A continuación, profundizarás en temas más avanzados, como la programación asincrónica, las promesas y el manejo de errores. Con ejemplos del mundo real, crearás proyectos interactivos y adquirirás una comprensión profunda de cómo funciona JavaScript en el desarrollo web. Este curso es ideal para aquellos que deseen convertirse en desarrolladores web front-end o para aquellos que quieran ampliar sus habilidades en programación web. ¡Prepárate para crear experiencias web impresionantes!",
             "video": "./assets/video_prueba.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         },
         {
-            "title": "Titulo 3",
-            "subtitle": "Subtitulo 3",
-            "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+            "title": "Programación en Java",
+            "subtitle": "Desde Conceptos Básicos hasta Programación Orientada a Objetos en Java",
+            "text": "Java es un lenguaje de programación versátil y poderoso con aplicaciones que van desde el desarrollo de aplicaciones de escritorio hasta aplicaciones móviles y web. Este curso completo te llevará a través de todos los aspectos de Java, desde los conceptos más básicos hasta temas avanzados. Aprenderás sobre la programación orientada a objetos (POO), incluyendo cómo trabajar con clases, objetos, herencia, polimorfismo y encapsulación. A medida que avanzas en el curso, comprenderás cómo se utiliza Java para desarrollar aplicaciones de alta calidad y rendimiento. También te sumergirás en la manipulación de datos, la gestión de archivos y las estrategias para resolver problemas de programación. Con ejercicios prácticos y proyectos desafiantes, estarás preparado para enfrentar una amplia variedad de problemas y desarrollar soluciones en Java. Ya sea que tu objetivo sea convertirte en un desarrollador de aplicaciones Android, un ingeniero de software o simplemente un apasionado de la programación, este curso te brindará una base sólida en Java.",
             "video": "./assets/Sprint_1.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         },
         {
-            "title": "Titulo 4",
-            "subtitle": "Subtitulo 4",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Programación en C++",
+            "subtitle": "Navegando en el Mundo de la Programación de Bajo Nivel con C++",
+            "text": "C++ es un lenguaje de programación de alto rendimiento ampliamente utilizado en aplicaciones intensivas y sistemas críticos. Este curso completo te llevará desde los fundamentos hasta los conceptos más avanzados en el mundo de la programación en C++. Comenzarás desde lo más básico, entendiendo las variables, los tipos de datos y las estructuras de control. Luego, te adentrarás en temas más avanzados como la programación orientada a objetos (POO), trabajando con clases, herencia, polimorfismo y encapsulación. Con ejercicios prácticos, proyectos y desafíos, desarrollarás la confianza necesaria para crear aplicaciones de alto rendimiento. Ya sea que tu objetivo sea desarrollar software de sistemas, aplicaciones de escritorio o incluso aplicaciones de juegos, este curso te proporcionará las bases sólidas necesarias para el desarrollo de software en C++.",
             "video": "./assets/video_prueba.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         },
         {
-            "title": "Titulo 5",
-            "subtitle": "Subtitulo 5",
-            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "title": "Programación en Python",
+            "subtitle": "Python: El Lenguaje Versátil para Desarrollo y Ciencia de Datos",
+            "text": "Python es uno de los lenguajes de programación más populares y versátiles del mundo, con una amplia gama de aplicaciones que van desde el análisis de datos hasta el desarrollo web y la automatización. Este curso de Python te llevará a través de todos los aspectos de este lenguaje poderoso. Comenzarás desde lo básico, aprendiendo sobre variables, tipos de datos, estructuras de control y funciones. A medida que avanzas, te sumergirás en la creación de aplicaciones prácticas y proyectos emocionantes. También explorarás bibliotecas y frameworks populares que hacen que Python sea tan valioso, como Django y pandas. Al final de este curso, tendrás una comprensión profunda de Python y estarás listo para aplicar tus habilidades en diversos campos, desde desarrollo web hasta aprendizaje automático y análisis de datos. Python es una herramienta esencial en el mundo de la programación, y este curso te prepar",
             "video": "./assets/Sprint_1.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         },
         {
-            "title": "Titulo 6",
-            "subtitle": "Subtitulo 6",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Programación Orientada a Objetos",
+            "subtitle": "Explorando los Principios Universales de la Programación Orientada a Objetos (OOP)",
+            "text": "La Programación Orientada a Objetos (OOP) es un paradigma fundamental que ha revolucionado la forma en que los programadores abordan el diseño y la estructura de sus aplicaciones. Este curso te sumergirá en el emocionante mundo de la OOP, desde los conceptos más básicos hasta las técnicas avanzadas. Comenzarás entendiendo los principios fundamentales de la OOP, incluyendo la encapsulación, la herencia y el polimorfismo. A medida que avanzas, descubrirás cómo representar objetos del mundo real en tu código, creando clases y objetos que interactúan de manera intuitiva. Entenderás cómo diseñar sistemas de software modulares y reutilizables, lo que facilita el mantenimiento y la escalabilidad de tus aplicaciones. Este curso no solo se centrará en los conceptos teóricos, sino que te llevará a aplicarlos en ejercicios prácticos y proyectos del mundo real. Aprenderás a modelar sistemas complejos, a resolver problemas de programación desafiantes y a escribir código limpio y eficiente. La Programación Orientada a Objetos es un pilar en el mundo de la programación y es ampliamente utilizada en lenguajes como Java, C++, Python y muchos otros. Ya sea que estés buscando mejorar tus habilidades de desarrollo de software o desees adentrarte en el desarrollo de aplicaciones más grandes y sofisticadas, este curso te proporcionará una base sólida en la OOP. Prepara para explorar un paradigma de programación que transformará la forma en que creas software.",
             "video": "./assets/Sprint_1.mov",
-            "pdf": "./assets/Documento_de_estandar_de_codificacion.pdf"
+            "pdf": "https://www.mheducation.es/bcv/guide/capitulo/844814645X.pdf"
         }
 ]

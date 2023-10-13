@@ -64,12 +64,15 @@ a:hover {
 }
 
 img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
 .text {
-    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 30px;
 }
 
 h3 {

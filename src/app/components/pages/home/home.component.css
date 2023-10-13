@@ -27,13 +27,13 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 30%;
-    text-align: center;
+    text-align: left;
 }
 
 /* Estilos para el contenido seleccionado */
 .content {
     flex: 1;
-    padding: 20px;
+    padding: 40px;
     background-color: #fff; /* Color de fondo para el contenido */
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -63,14 +63,21 @@ h3:hover {
     background-color: #d0d0d0; /* Cambio de color al pasar el ratón por encima */
 }
 
+.title {
+    font-size: 30px;
+}
 .subtitle {
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .text {
-    text-align: left;
+    text-align: justify;
     font-weight: 100;
+    line-height: 30px;
+    margin: 20px;
 }
 
 /* Estilos para el enlace de ingreso */
