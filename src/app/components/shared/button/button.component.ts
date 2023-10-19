@@ -17,7 +17,7 @@ export class ButtonComponent {
   textButton(): String{
     const role = localStorage.getItem('role');
     if (role === "docente" && this.router.url === "/home"){
-      return "Subir contenido";
+      return "";
     } else if (role === "estudiante" && this.router.url === "/home"){
       return "Necesitas ayuda";
     } else if ((role === "docente" && this.router.url === "/subir-contenido") || (role === "estudiante" && this.router.url === "/ayuda")) {
